@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+}
+.header {
+  background-color: yellow;
+}
+.container {
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.contactList {
+  width: 90%;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 50px;
+  right: 10px;
+  height: 80vh;
+  overflow: auto;
+  z-index: 999;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+.articleItems {
+  width: 30px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+.articleItems:hover {
+  border: 1px solid gray;
+}
+
+.articleItemsResult {
+  width: 100%px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid grey;
+  text-align: left;
+}
+
+.footer {
+  border: 1px solid red;
+  height: 200px;
+}
